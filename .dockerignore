@@ -1,0 +1,15 @@
+# 密钥不入镜像
+backend/.env
+# 本地数据不入镜像（运行时挂卷持久化）
+backend/data.sqlite3
+backend/kb.sqlite3
+# macOS 专属 OCR 组件，Linux 镜像无用
+backend/ocr_bin
+backend/ocr.swift
+# 测试与缓存
+backend/tests
+**/__pycache__
+**/*.pyc
+.git
+.gitignore
+*.md

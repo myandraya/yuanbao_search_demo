@@ -1,0 +1,14 @@
+backend/.env
+backend/.venv/
+**/__pycache__/
+backend/data.sqlite3*
+backend/kb.sqlite3*
+.DS_Store
+node_modules/
+package.json
+package-lock.json
+gen_pptx.js
+~$*.pptx
+~$*.xlsx
+~$*.docx
+backend/ocr_bin
